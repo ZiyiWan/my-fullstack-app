@@ -4,7 +4,7 @@ declare global {
 }
 
 const MONGODB_URI =
-  "mongodb+srv://zanew:opl3063409@cluster0.wwd9f8d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "your mongodb url";
 
 if (!MONGODB_URI) {
   throw new Error(
