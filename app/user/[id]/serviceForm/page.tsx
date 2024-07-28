@@ -141,10 +141,10 @@ const ServiceForm = () => {
 
       try {
         const result = await emailjs.send(
-          "service_nt5jf9k",
-          "template_pk2hhef",
+          "your service_id",
+          "your template_id",
           emailParams,
-          "oMJMbJekHXUIOBDpL"
+          "your user id"
         );
         console.log("Email sent successfully:", result.text);
       } catch (error) {
